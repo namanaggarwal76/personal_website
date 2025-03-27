@@ -57,7 +57,7 @@ personal-website/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourusername.github.io.git
+   git clone https://github.com/namanaggarwal76/personal_website
    ```
 
 2. Access different sections:
