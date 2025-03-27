@@ -76,6 +76,8 @@ The website includes:
 - All client-side (no data collection)
 
 ## 🖊️ Text Analysis
+
+The text analyser tool can be accessed from the nav bar, which is on a diff html page, it has a input box which takes in text input and then analyses it using a js script, it prints the results on the webpage itself. The conclusion includes the following results:
 - number of letters
 - number of words
 - number of spaces
