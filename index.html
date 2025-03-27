@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naman Aggarwal's Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="home_page/styles.css">
+</head>
+
+<body>
+
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle">
+        <input type="checkbox" id="darkModeToggle" class="toggle-checkbox">
+        <label for="darkModeToggle" class="toggle-label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <span class="toggle-ball"></span>
+        </label>
+    </div>
+
+    <!-- Header with Navigation -->
+    <header class="animate__animated animate__fadeInDown">
+        <nav>
+            <div class="nav-container">
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="assets/docs/cv.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
+                    <li><a href="text-analyser/index.html" target="_blank" rel="noopener noreferrer">Text
+                            Analyzer</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero animate__animated animate__fadeIn" style="background-image: url('assets/images/bg.jpg');">
+        <div class="hero-content">
+            <h1>Hlo, I'm <span class="highlight">Naman Aggarwal</span></h1>
+            <p class="subtitle">Freshman from IIITH, pursuing Btech in Computer Science</p>
+            <a href="#about" class="btn">Explore More</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- About Section -->
+        <section id="about" class="section animate__animated animate__fadeInUp">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="profile-pic">
+                    <img src="home_page/assets/images/profile.jpeg" alt="Naman Aggarwal" class="profile-img">
+                </div>
+                <div class="about-text">
+                    <p>
+                        Hello, I am Naman Aggarwal from Delhi and currently pursuing B.tech in CSE from IIIT Hyderabad.
+                        I am a passionate learner and a tech enthusiast. I love exploring new technologies. I have a
+                        keen interest in web development and machine learning. In my free time, I enjoy reading books,
+                        playing video games, watching movies and spending time with friends.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/naman-aggarwal-ba807b240/" target="_blank"
+                            rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.github.com/namanaggarwal76" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/namanaggarwal2111" target="_blank"
+                            rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtu.be/dQw4w9WgXcQ?si=ixnyPkpXQx7-fCZP" target="_blank"
+                            rel="noopener noreferrer"><i class="fab fa-reddit"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section dark-section animate__animated animate__fadeIn">
+            <h2 class="section-title">Education & <span class="highlight">Achievements</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>IIIT Hyderabad</h3>
+                        <p>B.Tech in Computer Science</p>
+                        <p>CGPA: 9.44</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>JEE Advanced</h3>
+                        <p>Rank: AIR 1871</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>JEE Mains</h3>
+                        <p>Percentile: 99.93%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2010 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Sachdeva Public School</h3>
+                        <p>Class XII: 94.4%</p>
+                        <p>Class X: 96.4%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section animate__animated animate__fadeIn">
+            <h2 class="section-title">Technical <span class="highlight">Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-name"><i class="fas fa-code skill-icon"></i>Python</div>
+                    <div class="skill-name"><i class="fas fa-c skill-icon"></i>C</div>
+                    <div class="skill-name"><i class="fas fa-plus skill-icon"></i>C++</div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-name"><i class="fab fa-html5 skill-icon"></i>HTML/CSS</div>
+                    <div class="skill-name"><i class="fab fa-js skill-icon"></i>JavaScript</div>
+                    <div class="skill-name"><i class="fab fa-react skill-icon"></i>React</div>
+                </div>
+                <div class="skill-category">
+                    <h3>Other Skills</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag"><i class="fas fa-code skill-icon"></i>Data Structure and
+                            Algorithms</span>
+                        <span class="skill-tag"><i class="fab fa-git-alt skill-icon"></i>Git</span>
+                        <span class="skill-tag"><i class="fas fa-database skill-icon"></i>SQL</span>
+                        <span class="skill-tag"><i class="fas fa-terminal skill-icon"></i>Bash</span>
+                        <span class="skill-tag"><i class="fas fa-microchip skill-icon"></i>Assembly</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section dark-section animate__animated animate__fadeIn">
+            <h2 class="section-title">My Birthplace, <span class="highlight">Delhi</span></h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="home_page/assets/images/delhi2.jpeg" class="gallery-img">
+                    <div class="gallery-caption">India Gate (A major tourist attraction in Delhi)</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="home_page/assets/images/delhi3.jpeg" class="gallery-img">
+                    <div class="gallery-caption">Delhi's aerial view</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="home_page/assets/images/delhi1.jpeg" class="gallery-img">
+                    <div class="gallery-caption">My School</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="home_page/assets/images/rohini1.jpeg" class="gallery-img">
+                    <div class="gallery-caption">Specific region where I live in Delhi</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section animate__animated animate__fadeIn">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> naman.aggarwal@students.iiit.ac.in</p>
+                    <p><i class="fas fa-phone"></i> +91 8368609506</p>
+                    <p><i class="fas fa-map-marker-alt"></i>IIIT Hyderabad, Gachibowlli</p>
+                    <div class="google-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.6027697804823!2d78.35838311531096!3d17.444890287091264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcdddbd6c91e10d%3A0xa130f993c482b908!2sIIIT%20Hyderabad!5e0!3m2!1sen!2sin!4v1697045000000"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer class="animate__animated animate__fadeInUp">
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/naman-aggarwal-ba807b240/" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://www.github.com/namanaggarwal76" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/namanaggarwal2111" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=ixnyPkpXQx7-fCZP" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-reddit"></i></a>
+        </div>
+    </footer>
+    <script src="home_page/js/script.js"></script>
+    <script src="home_page/js/analytics.js"></script>
+</body>
+
+</html>
