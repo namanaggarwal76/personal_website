@@ -1,10 +1,11 @@
-# Naman Aggarwal's Personal Website
+# My Personal Website
 
-Welcome to my personal portfolio website hosted on GitHub Pages, featuring my academic journey, technical skills, and projects built as a part of assignment of ISS
+Welcome to my personal portfolio website hosted on GitHub Pages, featuring my academic journey, technical skills, and projects.
+
 ## 🌐 Live Website
 [https://namanaggarwal76.github.io/personal_website/](https://namanaggarwal76.github.io/personal_website/)
 
-## 📂 Project Structure
+<!-- ## 📂 Project Structure
 
 ```text
 personal-website/
@@ -29,9 +30,9 @@ personal-website/
 |   └── styles.css
 |─── README.md
 |───index.html
-```
+``` -->
 
-## ✨ Key Features
+<!-- ## ✨ Key Features
 
 - **Personal Portfolio**:
   - Responsive design with dark/light mode
@@ -42,7 +43,7 @@ personal-website/
 - **Text Analyzer Tool**:
   - Word/character counter
   - Grammar analysis (pronouns, prepositions)
-  - Supports 10,000+ words
+  - Supports 10,000+ words -->
 
 ## 🛠️ Technologies Used
 
@@ -53,7 +54,7 @@ personal-website/
   <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages">
 </div>
 
-## 🚀 Setup Instructions
+<!-- ## 🚀 Setup Instructions
 
 1. Clone the repository:
    ```bash
@@ -66,7 +67,7 @@ personal-website/
 
 3. For local testing:
    - Use Live Server extension in VS Code
-   - Or open HTML files directly in browser
+   - Or open HTML files directly in browser -->
 
 ## 📊 Analytics Features
 
@@ -75,7 +76,7 @@ The website includes:
 - Console logging for debugging
 - All client-side (no data collection)
 
-## 🖊️ Text Analysis
+<!-- ## 🖊️ Text Analysis
 
 The text analyser tool can be accessed from the nav bar, which is on a diff html page, it has a input box which takes in text input and then analyses it using a js script, it prints the results on the webpage itself. The conclusion includes the following results:
 - number of letters
@@ -85,4 +86,4 @@ The text analyser tool can be accessed from the nav bar, which is on a diff html
 - number of special symbols
 - Tokenize the text and Print count of pronouns group by pronouns
 - Tokenize the text and Print count of prepositions group by prepositions
-- Tokenize the text and Print count of indefinite articles group by articles
+- Tokenize the text and Print count of indefinite articles group by articles -->
